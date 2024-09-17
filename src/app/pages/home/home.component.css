@@ -18,7 +18,10 @@
   height: auto;
   background-color: #ffdb2b;
   border-radius: 10px;
-  padding: 44px 253px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .header {
@@ -26,7 +29,10 @@
   justify-content: space-between;
   align-items: center;
   margin-bottom: 150px;
-  padding-right: 43px;
+  margin-top: 50px;
+  max-width: 1252px;
+  width: 100%;
+
 
 }
 
@@ -77,13 +83,17 @@
   font-size: 15px;
   font-weight: 700;
   line-height: 18.15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
 
 
 }
 
 .login {
   background-color: #ffdb2b;
-  font-size: 900;
+
 }
 
 .cadastrar {
@@ -110,6 +120,7 @@
   flex-direction: row;
   margin-bottom: 150px;
   justify-content: space-between;
+  max-width: 1252px;
 }
 
 .texto-anuncios {
@@ -124,7 +135,7 @@
 
 .texto-anuncios h1 {
   margin-bottom: 50px;
-  font-size: 33px;
+  font-size: 29px;
   font-weight: 700;
   line-height: 39.94px;
   text-align: left;
