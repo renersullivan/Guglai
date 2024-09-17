@@ -274,6 +274,15 @@
 
 }
 
+.mobile-conheca-melhor {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  max-width: 1252px;
+  margin: auto;
+  align-items: center;
+}
+
 
 .btns-servicos {
   display: flex;
@@ -315,30 +324,36 @@
 
 .conheca-melhor {
   display: flex;
-  padding: 44px 253px;
+  width: 100%;
   justify-content: center;
   align-items: center;
   text-align: left;
 }
 
+.texto-conheca-melhor {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+
+
+}
+
+.celular-conheca-melhor {
+  width: 670px;
+}
+
 .conheca-melhor-reverse {
   display: flex;
-  padding: 44px 253px;
+
   justify-content: center;
   align-items: center;
   flex-direction: row-reverse;
 }
 
-.texto-conheca-melhor {
-  display: flex;
-  flex-direction: column;
-
-
-}
-
 .texto-conheca-melhor-reverso {
   display: flex;
   flex-direction: column;
+  width: 100%;
 
 
 }
@@ -348,7 +363,7 @@
   font-weight: 400;
   line-height: 30px;
   text-align: left;
-  padding-left: 150px;
+
 
 
 }
@@ -397,6 +412,7 @@
 .btn-comecar-ja {
   display: flex;
   margin-top: 70px;
+  cursor: pointer;
 }
 
 .btn-comece {
@@ -462,13 +478,12 @@
 }
 
 .btn-mensal {
-  font-family: Inter;
   font-size: 18px;
   font-weight: 700;
-  line-height: 21.6px;
   text-align: center;
   color: #1A1A1A;
   margin-right: 15px;
+  cursor: pointer;
 
 }
 
@@ -479,6 +494,7 @@
   line-height: 21.6px;
   text-align: center;
   color: #787D7D;
+  cursor: pointer;
 
 }
 
@@ -487,11 +503,10 @@
   display: flex;
   flex-direction: row;
   border-radius: 15px;
-  padding: 30px;
+  margin: 30px;
   flex: calc(3333.333% - 20px);
   gap: 20px;
-  min-width: 397px;
-  max-width: 1400px;
+  max-width: 1252px;
 
 }
 
@@ -530,6 +545,7 @@
   flex-direction: column;
   width: 100%;
   padding: 20px;
+
 }
 
 
@@ -556,6 +572,7 @@
   flex-direction: column;
   width: 100%;
   padding: 20px;
+
 }
 
 .standard h5 {
@@ -739,24 +756,22 @@
 }
 
 .assistente-digital {
-  background-image: url(../../../assets/images/png/fundo-com-celular.png);
-  background-size: 100%;
-  background-repeat: no-repeat;
+  background-color: #030712;
+  border-radius: 20px 20px 0px 0px;
   width: 100%;
   height: 395px;
-  padding-left: 677px;
   padding-top: 50px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
 }
 
 .assistente-digital p {
   width: 862px;
-  height: 88px;
+  height: auto;
   color: #ffffff;
-
   font-size: 37px;
   font-weight: 700;
-  line-height: 44.4px;
-  letter-spacing: -0.03em;
   text-align: left;
 }
 
@@ -770,14 +785,51 @@
   margin-top: 50px;
 }
 
-.rodape-goglai {
-  width: 100%;
-  height: 557px;
-  background-image: url(../../../assets/images/png/Footer.png);
-  background-repeat: no-repeat;
+.assistente-digital img {
+  overflow: auto;
+}
 
+.btn-comece-ja-assistente {
+  width: 180px;
+  height: 60px;
+  border-radius: 4px;
+  opacity: 0px;
+  background-color: #ffffff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 15px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.btn-comece-ja-assistente p {
+  color: #000000;
+  font-size: 18px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 
 }
+
+.rodape-goglai {
+  display: flex;
+  justify-content: space-between;
+}
+
+.rodape-part-1 {}
+
+.link-menu {
+  text-decoration: none;
+  color: #000000;
+}
+
+.link-menu a {
+  text-decoration: none;
+  color: #000000;
+}
+
+
 
 .rodape-goglai img {
   margin-left: 56px;
@@ -831,5 +883,6 @@
     display: flex;
     flex-direction: column;
   }
+
 
 }
