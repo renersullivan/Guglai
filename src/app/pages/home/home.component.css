@@ -712,23 +712,6 @@
   margin-bottom: 300px;
 }
 
-.plataforma {
-
-  padding: 0px 150px;
-}
-
-.plataforma h1 {
-  font-size: 31px;
-  font-weight: 700;
-  line-height: 42px;
-}
-
-.plataforma h5 {
-  padding-right: 150px;
-  color: #1D191F;
-  margin-top: 25px;
-  font-size: 18px;
-}
 
 .perguntas {
   padding: 0px 150px;
@@ -890,9 +873,11 @@
 
 
 
-@media (max-width:480px) {
+@media (max-width:768px) {
   .container-conteudo {
     flex-direction: column;
+    display: flex;
+    align-items: center;
   }
 
   .header {
@@ -928,6 +913,11 @@
   .mobile-conheca-melhor {
     display: flex;
     flex-direction: column;
+  }
+
+  .info-relevantes {
+    flex-direction: column;
+    display: flex;
   }
 
 
