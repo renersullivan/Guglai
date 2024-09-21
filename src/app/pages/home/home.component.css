@@ -266,6 +266,7 @@
   flex-direction: column;
   max-width: 1252px;
   align-items: center;
+  margin: auto;
 }
 
 
@@ -715,11 +716,19 @@
   margin-top: 10px;
   display: flex;
   justify-content: space-between;
-  align-items: center;
+  align-items: baseline;
   margin-bottom: 10px;
+  flex-direction: column;
+}
 
 
-
+.pergunta {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  cursor: pointer;
 }
 
 .container-perguntas {
@@ -839,6 +848,19 @@
   margin-top: 80px;
   margin-left: 20px;
 
+}
+
+.resposta{
+  opacity:1;
+  transition: all 0.2s;
+  height: 100px;
+  overflow: hidden;
+}
+.esconde{
+  opacity: 0;
+  transition: all 0.2s;
+  height: 0px;
+  overflow: hidden;
 }
 
 .barra-separacao-rodape {

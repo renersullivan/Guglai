@@ -347,22 +347,43 @@
 
       <div class="container-perguntas">
         <div class="perguntas">
-          <h1>O que é a plataforma Guglai?</h1>
-          <img src="../../../assets/images/png/sinal-mais.png" alt="abrir">
-
-          <div *NgIf="mostrarResposta" class="resposta">
-            <h5>O Guglai é uma ferramenta de busca inteligente que utiliza inteligência artificial para explorar a
-              internet e selecionar os melhores resultados para suas necessidades. Seja procurando carros, casas,
-              viagens ou
-              qualquer outra informação, o Guglai entrega resultados relevantes diretamente no seu WhatsApp, Email, SMS
-              ou na nossa
-              plataforma.</h5>
-            <img src="../../../assets/images/png/sinal-menos.png" alt="fechar">
+          <div class="pergunta" (click)="escondeOuMostraResposta($event)">
+            <h1  >O que é a plataforma Guglai?</h1>
+            <img src="../../../assets/images/png/sinal-mais.png" alt="abrir">
           </div>
+            <div class="resposta">
+              <h5>O Guglai é uma ferramenta de busca inteligente que utiliza inteligência artificial para explorar a
+                internet e selecionar os melhores resultados para suas necessidades. Seja procurando carros, casas,
+                viagens ou
+                qualquer outra informação, o Guglai entrega resultados relevantes diretamente no seu WhatsApp, Email, SMS
+                ou na nossa
+                plataforma.</h5>
+              <img src="../../../assets/images/png/sinal-menos.png" alt="fechar">
+            </div>
+     
         </div>
         <div class="barra-separacao"></div>
+
         <div class="perguntas">
-          <h1>Como funciona a tecnologia de IA do Goglai ?</h1>
+          <div class="pergunta" (click)="escondeOuMostraResposta($event)">
+            <h1>Como funciona a tecnologia de IA do Goglai ?</h1>
+
+            <img src="../../../assets/images/png/sinal-mais.png" alt="abrir">
+          </div>
+            <div class="resposta">
+              <h5>O Guglai é uma ferramenta de busca inteligente que utiliza inteligência artificial para explorar a
+                internet e selecionar os melhores resultados para suas necessidades. Seja procurando carros, casas,
+                viagens ou
+                qualquer outra informação, o Guglai entrega resultados relevantes diretamente no seu WhatsApp, Email, SMS
+                ou na nossa
+                plataforma.</h5>
+              <img src="../../../assets/images/png/sinal-menos.png" alt="fechar">
+            </div>
+     
+        </div>
+
+
+        <div class="perguntas">
           <img src="../../../assets/images/png/sinal-mais.png" alt="">
         </div>
         <div class="barra-separacao"></div>
