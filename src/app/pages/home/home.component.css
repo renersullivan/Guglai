@@ -1,5 +1,3 @@
-
-
 .container-amarelo {
   width: 100%;
   height: auto;
@@ -9,7 +7,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding:10px 20px;
+  padding: 10px 20px;
 }
 
 .header {
@@ -326,7 +324,7 @@
 
 }
 
-.reverse{
+.reverse {
   flex-direction: row-reverse;
 }
 
@@ -336,8 +334,8 @@
   min-width: 343px;
 }
 
-.celular-conheca-melhor img{
-  width: 100%; 
+.celular-conheca-melhor img {
+  width: 100%;
 }
 
 .conheca-melhor-reverse {
@@ -721,6 +719,19 @@
   flex-direction: column;
 }
 
+.perguntas h5 {
+  display: flex;
+  width: 100%;
+  max-width: 659px;
+  margin: 10px 5px;
+
+}
+
+.pergunta h1 {
+  margin-right: 33px;
+  width: 100%;
+}
+
 
 .pergunta {
   display: flex;
@@ -850,13 +861,14 @@
 
 }
 
-.resposta{
-  opacity:1;
+.resposta {
+  opacity: 1;
   transition: all 0.2s;
   height: 100px;
   overflow: hidden;
 }
-.esconde{
+
+.esconde {
   opacity: 0;
   transition: all 0.2s;
   height: 0px;
@@ -946,18 +958,18 @@
   }
 
 
-  .conheca-melhor{
+  .conheca-melhor {
     flex-direction: column-reverse;
   }
 
   .recursos {
     margin-bottom: 0px;
-  
+
   }
 
   .p-texto-topo[_ngcontent-ng-c3732846864] {
 
     margin-bottom: 10px;
     margin-top: 20px;
-}
+  }
 }
